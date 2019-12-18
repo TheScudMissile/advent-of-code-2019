@@ -12,7 +12,8 @@
 (defn day2-solutions
   []
   (do
-    (println (first (day2/get-final-instruction-state)))))
+    (println (first (day2/get-final-instruction-state "12" "2")))
+    (println (day2/get-final-expression-result))))
 
 (defn day12-solutions
   []
