@@ -66,13 +66,37 @@
     999999999999
     intersections))
 
-(defn calc-intersections-and-get-manhattan
-  "Calculates all intersections of the 2 wires and
-   returns the manhattan distance to the closest one"
+(defn get-step-sets
+  "Convert wire step list into a set so we can do set operations on them"
   []
-  (let [wire-coord-sets (map
-                      #(disj (set (get-all-steps-vector %)) [0 0])
-                      (get-wire-instruction-vectors))]
-    (get-smallest-manhattan (apply set/intersection wire-coord-sets))))
+  (map
+    #(disj (set (get-all-steps-vector %)) [0 0])
+    (get-wire-instruction-vectors)))
+
+(defn get-manhattan
+  "Returns the manhattan distance to the closest intersection"
+  []
+  (get-smallest-manhattan (apply set/intersection (get-step-sets))))
 
 ;; Part 2
+
+(def intersections (apply set/intersection (get-step-sets)))
+
+(defn get-num-steps-coll
+  "For a given wire, calculate the number of steps it takes
+   to reach each intersection"
+  [wire]
+  (map #(+ 1 (.indexOf wire %)) intersections))
+
+(defn get-all-intersection-steps
+  "Get the num-steps-coll for each wire"
+  []
+  (let [wires (map #(drop 1 (get-all-steps-vector %)) (get-wire-instruction-vectors))]
+    (map get-num-steps-coll wires)))
+
+(defn min-steps-to-intersection
+  "Find the smallest number of steps it takes to
+   reach an intersection"
+  []
+  (let [[wire-a-steps wire-b-steps] (get-all-intersection-steps)]
+    (apply min (map + wire-a-steps wire-b-steps))))

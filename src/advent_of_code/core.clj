@@ -19,7 +19,8 @@
 (defn day3-solutions
   []
   (do
-    (println (day3/calc-intersections-and-get-manhattan))))
+    (println (day3/get-manhattan))
+    (println (day3/min-steps-to-intersection))))
 
 (defn day12-solutions
   []
