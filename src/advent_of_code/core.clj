@@ -26,7 +26,8 @@
 (defn day4-solutions
   []
   (do
-    (println (day4/get-num-possible-passwords))))
+    (println (count (day4/get-possible-passwords false)))
+    (println (count (day4/get-possible-passwords true)))))
 
 (defn day12-solutions
   []
