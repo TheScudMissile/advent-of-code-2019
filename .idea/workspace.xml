@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29fa18b0-03e7-4bcf-975a-6f22899c2a82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/day5-input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/advent_of_code/day5.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advent-of-code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/advent-of-code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/advent_of_code/day5.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/advent_of_code/day5.clj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +18,19 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/advent_of_code/day5.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -26,14 +38,67 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>print</find>
+      <find>instrs-left</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/advent_of_code/day5.clj" />
+      </list>
+    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
   <component name="ProjectId" id="1VaCpcDVBNszklMyaUgT5aixZHK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="advent-of-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="advent-of-code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="advent-of-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="advent-of-code" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="advent-of-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="advent-of-code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="advent-of-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="advent-of-code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="advent_of_code" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -48,7 +113,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="ReplState" timestamp="1577743387919">{:repl-history {:ide [], :local [{:command &quot;(take-while #(nil? (#{[0 0] [0 1]} %)) [1 2 3 [0 0]])&quot;, :offset 53, :ns &quot;advent-of-code.core&quot;} {:command &quot;(get-intersections)&quot;, :offset 19, :ns &quot;advent-of-code.day3&quot;} {:command &quot;(= (first a) (last a))&quot;, :offset 22, :ns &quot;advent-of-code.day3&quot;} {:command &quot;(in-ns 'advent-of-code.day3)&quot;, :offset 28, :ns &quot;advent-of-code.core&quot;} {:command &quot;(first (get-step-sets))&quot;, :offset 23, :ns &quot;advent-of-code.day3&quot;} {:command &quot;(first (map get-all-steps-vector (get-wire-instruction-vectors)))&quot;, :offset 65, :ns &quot;advent-of-code.day3&quot;} {:command &quot;(first\n  (first (map get-all-steps-vector (get-wire-instruction-vectors))))&quot;, :offset 75, :ns &quot;advent-of-code.day3&quot;} {:command &quot;(first\n  (first (drop 1 (map get-all-steps-vector (get-wire-instruction-vectors)))))&quot;, :offset 84, :ns &quot;advent-of-code.day3&quot;} {:command &quot;(first\n  (first (map #(drop 1 (get-all-steps-vector %)) (get-wire-instruction-vectors))))&quot;, :offset 89, :ns &quot;advent-of-code.day3&quot;} {:command &quot;(drop 1 [1 2 3])&quot;, :offset 16, :ns &quot;advent-of-code.day3&quot;} {:command &quot;(first (first (map #(drop 1 (get-all-steps-vector %)) (get-wire-instruction-vectors))))&quot;, :offset 87, :ns &quot;advent-of-code.day3&quot;} {:command &quot;(first (first (get-step-sets)))&quot;, :offset 31, :ns &quot;advent-of-code.day3&quot;} {:command &quot;(apply set/intersection [#{1 2 3} #{8 7 2}])&quot;, :offset 44, :ns &quot;advent-of-code.day3&quot;} {:command &quot;(apply set/intersection (get-step-sets))&quot;, :offset 40, :ns &quot;advent-of-code.day3&quot;} {:command &quot;(first (map #(drop 1 (get-all-steps-vector %)) (get-wire-instruction-vectors)))&quot;, :offset 79, :ns &quot;advent-of-code.day3&quot;} {:command &quot;(#{1 2 3} 8)&quot;, :offset 12, :ns &quot;advent-of-code.day3&quot;} {:command &quot;intersections&quot;, :offset 13, :ns &quot;advent-of-code.day3&quot;} {:command &quot;(nth [1 2 3] 0)&quot;, :offset 15, :ns &quot;advent-of-code.day3&quot;} {:command &quot;(.indexOf (first (map #(drop 1 (get-all-steps-vector %)) (get-wire-instruction-vectors))) [990 63])&quot;, :offset 99, :ns &quot;advent-of-code.day3&quot;} {:command &quot;(map println [1 2 3] [4 5 6])&quot;, :offset 29, :ns &quot;advent-of-code.day3&quot;} {:command &quot;(map (.indexOf [1 2 3 4 5 6] %) [1 2 3] [4 5 6])&quot;, :offset 48, :ns &quot;advent-of-code.day3&quot;} {:command &quot;(map #(.indexOf [1 2 3 4 5 6] %) [1 2 3] [4 5 6])&quot;, :offset 49, :ns &quot;advent-of-code.day3&quot;} {:command &quot;(blah)&quot;, :offset 6, :ns &quot;advent-of-code.day3&quot;} {:command &quot;(map + [1 2 3] [4 5 6])&quot;, :offset 23, :ns &quot;advent-of-code.day3&quot;} {:command &quot;(day3-solutions)&quot;, :offset 16, :ns &quot;advent-of-code.core&quot;} {:command &quot;(seq [1 2 3])&quot;, :offset 13, :ns &quot;advent-of-code.core&quot;} {:command &quot;(range 1 4)&quot;, :offset 11, :ns &quot;advent-of-code.core&quot;} {:command &quot;(last input)&quot;, :offset 12, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(seq 1234)&quot;, :offset 10, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(map println 123)&quot;, :offset 17, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(has-dup-adjacent-digits)&quot;, :offset 25, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(has-dup-adjacent-digits 2234)&quot;, :offset 30, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(for [x 6]\n  (+ x))&quot;, :offset 19, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(for [x 6]\n  (+ x 0))&quot;, :offset 21, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(or 1 2)&quot;, :offset 8, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(partition-by = [1 2 3 4])&quot;, :offset 26, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(partition-by #(= 3 %) [1 2 3 4 5])&quot;, :offset 35, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(distinct [1 2 2 1 2])&quot;, :offset 22, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(dedupe [1 2 2 1 2])&quot;, :offset 20, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(has-dup-adjacent-digits [1 2 2 1])&quot;, :offset 35, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(some? [1 2 2])&quot;, :offset 15, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(some? [false false])&quot;, :offset 21, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(has-dup-adjacent-digits [ 1 2 3])&quot;, :offset 34, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(map #(not= % %2) [1 2 3 3] (dedupe [1 2 3]))&quot;, :offset 45, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(map #(not= % %2) [1 2 3 3] (dedupe [1 2 3 3]))&quot;, :offset 47, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(has-dup-adjacent-digits [ 1 2 3 3])&quot;, :offset 36, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(has-dup-adjacent-digits [1 2 3 3])&quot;, :offset 35, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(has-dup-adjacent-digits [1 2 3])&quot;, :offset 33, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(has-dup-adjacent-digits [1 2 2 3])&quot;, :offset 35, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(has-dup-adjacent-digits [1 2 2 3 7 7])&quot;, :offset 39, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(has-dup-adjacent-digits [1 2 3 7 2 7])&quot;, :offset 39, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(apply #(comp = count) [[1 2] [1 2]])&quot;, :offset 37, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(apply (comp = count) [[1 2] [1 2]])&quot;, :offset 36, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(count [1 2])&quot;, :offset 13, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(apply count [[1 1] [1 2]])&quot;, :offset 27, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(partition 2 1 [1 2 3 4 5])&quot;, :offset 27, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(partition 1 1 [1 2 3 4 5])&quot;, :offset 27, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(partition 1 1 [1 2 3 4 1 5])&quot;, :offset 29, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(filter has-dup-adjacent-digits [[1 2 2 4] [1 2 3 4]])&quot;, :offset 54, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(set/difference #{3 4} #{3})&quot;, :offset 28, :ns &quot;advent-of-code.core&quot;} {:command &quot;(set/difference #{1 2 3} #{1 2 3 4})&quot;, :offset 36, :ns &quot;advent-of-code.core&quot;} {:command &quot;(set/difference #{1 2 3} #{1 2 3 4} #{1 2})&quot;, :offset 43, :ns &quot;advent-of-code.core&quot;} {:command &quot;(set/difference #{1 2 3} #{1 2 3 4} #{4})&quot;, :offset 41, :ns &quot;advent-of-code.core&quot;} {:command &quot;(set/difference #{1 2 3} #{1 2 3 4} #{8 8})&quot;, :offset 43, :ns &quot;advent-of-code.core&quot;} {:command &quot;(set/difference #{1 2 3} #{1 2 3 4} #{8})&quot;, :offset 41, :ns &quot;advent-of-code.core&quot;} {:command &quot;((complement set/intersection) #{1 2 3} #{3})&quot;, :offset 45, :ns &quot;advent-of-code.core&quot;} {:command &quot;(set/union (set/difference #{1 2 3} #{3 4}) (set/difference #{3 4} #{1 2 3}))&quot;, :offset 77, :ns &quot;advent-of-code.core&quot;} {:command &quot;(set/difference #{1 2 3} #{3 4})&quot;, :offset 32, :ns &quot;advent-of-code.core&quot;} {:command &quot;(last [])&quot;, :offset 9, :ns &quot;advent-of-code.core&quot;} {:command &quot;(&lt; 1 nil)&quot;, :offset 9, :ns &quot;advent-of-code.core&quot;} {:command &quot;(range (count [1 2 3]))&quot;, :offset 23, :ns &quot;advent-of-code.core&quot;} {:command &quot;(drop-last [1 2 34])&quot;, :offset 20, :ns &quot;advent-of-code.core&quot;} {:command &quot;(map #(&lt;= % %2) [1 2 3] [2 3 4])&quot;, :offset 32, :ns &quot;advent-of-code.core&quot;} {:command &quot;(and 1 2)&quot;, :offset 9, :ns &quot;advent-of-code.core&quot;} {:command &quot;*ns*&quot;, :offset 4, :ns &quot;advent-of-code.core&quot;} {:command &quot;()&quot;, :offset 1} {:command &quot;(partition-by odd? [1 1 1 3 2 2 3 3])&quot;, :offset 37, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(partition-by identity [1 1 1 3 2 2 3 3])&quot;, :offset 41, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(partition-by (comp count identity) [1 1 1 3 2 2 3 3])&quot;, :offset 54, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(only-pair-dups [[1 2 2 3] [1 2 2 2 3]])&quot;, :offset 40, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(only-pair-dups [[1 2 2 3] [1 2 2 2 3] [1 2 3]])&quot;, :offset 48, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(only-pair-dups [1 2 3 4])&quot;, :offset 26, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(only-pair-dups [1 2 3 4 5 5])&quot;, :offset 30, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(only-pair-dups [1 2 3 4 5 5 5 5 5 ])&quot;, :offset 37, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(if false\n  (println \&quot;hi\&quot;))&quot;, :offset 27, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(if false\n  (println \&quot;hi\&quot;)\n  true)&quot;, :offset 34, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(only-pair-dups [1 2 2 2 2 2])&quot;, :offset 30, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(only-pair-dups [1 2 2])&quot;, :offset 24, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(only-pair-dups [1 2 2 3 3])&quot;, :offset 28, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(only-pair-dups [1 2 2 3 3 3])&quot;, :offset 30, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(only-pair-dups [1 1 2 2 3 3])&quot;, :offset 30, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(if true\n  (only-pair-dups [1 2 2 2])\n  true)&quot;, :offset 45, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(if true\n  (only-pair-dups [1 2 2])\n  true)&quot;, :offset 43, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(in-ns 'advent-of-code.day4)&quot;, :offset 28, :ns &quot;advent-of-code.core&quot;} {:command &quot;(has-dup-pair [1 2 3 4 5 5 5 5 5 ])&quot;, :offset 35, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(some?)&quot;, :offset 7} {:command &quot;(has-dup-pair [1 2 3 3 4 5 5 5 5 5 ])&quot;, :offset 37, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(count (get-possible-passwords true))&quot;, :offset 37, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(in-ns 'advent-of-code.core)&quot;, :offset 28, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(day4-solutions)&quot;, :offset 16, :ns &quot;advent-of-code.core&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1578365930754">{:repl-history {:ide [], :local [{:command &quot;(day3-solutions)&quot;, :offset 16, :ns &quot;advent-of-code.core&quot;} {:command &quot;(seq [1 2 3])&quot;, :offset 13, :ns &quot;advent-of-code.core&quot;} {:command &quot;(range 1 4)&quot;, :offset 11, :ns &quot;advent-of-code.core&quot;} {:command &quot;(last input)&quot;, :offset 12, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(seq 1234)&quot;, :offset 10, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(map println 123)&quot;, :offset 17, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(has-dup-adjacent-digits)&quot;, :offset 25, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(has-dup-adjacent-digits 2234)&quot;, :offset 30, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(for [x 6]\n  (+ x))&quot;, :offset 19, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(for [x 6]\n  (+ x 0))&quot;, :offset 21, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(or 1 2)&quot;, :offset 8, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(partition-by = [1 2 3 4])&quot;, :offset 26, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(partition-by #(= 3 %) [1 2 3 4 5])&quot;, :offset 35, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(distinct [1 2 2 1 2])&quot;, :offset 22, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(dedupe [1 2 2 1 2])&quot;, :offset 20, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(has-dup-adjacent-digits [1 2 2 1])&quot;, :offset 35, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(some? [1 2 2])&quot;, :offset 15, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(some? [false false])&quot;, :offset 21, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(has-dup-adjacent-digits [ 1 2 3])&quot;, :offset 34, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(map #(not= % %2) [1 2 3 3] (dedupe [1 2 3]))&quot;, :offset 45, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(map #(not= % %2) [1 2 3 3] (dedupe [1 2 3 3]))&quot;, :offset 47, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(has-dup-adjacent-digits [ 1 2 3 3])&quot;, :offset 36, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(has-dup-adjacent-digits [1 2 3 3])&quot;, :offset 35, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(has-dup-adjacent-digits [1 2 3])&quot;, :offset 33, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(has-dup-adjacent-digits [1 2 2 3])&quot;, :offset 35, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(has-dup-adjacent-digits [1 2 2 3 7 7])&quot;, :offset 39, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(has-dup-adjacent-digits [1 2 3 7 2 7])&quot;, :offset 39, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(apply #(comp = count) [[1 2] [1 2]])&quot;, :offset 37, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(apply (comp = count) [[1 2] [1 2]])&quot;, :offset 36, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(count [1 2])&quot;, :offset 13, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(apply count [[1 1] [1 2]])&quot;, :offset 27, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(partition 2 1 [1 2 3 4 5])&quot;, :offset 27, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(partition 1 1 [1 2 3 4 5])&quot;, :offset 27, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(partition 1 1 [1 2 3 4 1 5])&quot;, :offset 29, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(filter has-dup-adjacent-digits [[1 2 2 4] [1 2 3 4]])&quot;, :offset 54, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(set/difference #{3 4} #{3})&quot;, :offset 28, :ns &quot;advent-of-code.core&quot;} {:command &quot;(set/difference #{1 2 3} #{1 2 3 4})&quot;, :offset 36, :ns &quot;advent-of-code.core&quot;} {:command &quot;(set/difference #{1 2 3} #{1 2 3 4} #{1 2})&quot;, :offset 43, :ns &quot;advent-of-code.core&quot;} {:command &quot;(set/difference #{1 2 3} #{1 2 3 4} #{4})&quot;, :offset 41, :ns &quot;advent-of-code.core&quot;} {:command &quot;(set/difference #{1 2 3} #{1 2 3 4} #{8 8})&quot;, :offset 43, :ns &quot;advent-of-code.core&quot;} {:command &quot;(set/difference #{1 2 3} #{1 2 3 4} #{8})&quot;, :offset 41, :ns &quot;advent-of-code.core&quot;} {:command &quot;((complement set/intersection) #{1 2 3} #{3})&quot;, :offset 45, :ns &quot;advent-of-code.core&quot;} {:command &quot;(set/union (set/difference #{1 2 3} #{3 4}) (set/difference #{3 4} #{1 2 3}))&quot;, :offset 77, :ns &quot;advent-of-code.core&quot;} {:command &quot;(set/difference #{1 2 3} #{3 4})&quot;, :offset 32, :ns &quot;advent-of-code.core&quot;} {:command &quot;(last [])&quot;, :offset 9, :ns &quot;advent-of-code.core&quot;} {:command &quot;(&lt; 1 nil)&quot;, :offset 9, :ns &quot;advent-of-code.core&quot;} {:command &quot;(range (count [1 2 3]))&quot;, :offset 23, :ns &quot;advent-of-code.core&quot;} {:command &quot;(drop-last [1 2 34])&quot;, :offset 20, :ns &quot;advent-of-code.core&quot;} {:command &quot;(map #(&lt;= % %2) [1 2 3] [2 3 4])&quot;, :offset 32, :ns &quot;advent-of-code.core&quot;} {:command &quot;(and 1 2)&quot;, :offset 9, :ns &quot;advent-of-code.core&quot;} {:command &quot;()&quot;, :offset 1} {:command &quot;(partition-by odd? [1 1 1 3 2 2 3 3])&quot;, :offset 37, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(partition-by identity [1 1 1 3 2 2 3 3])&quot;, :offset 41, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(partition-by (comp count identity) [1 1 1 3 2 2 3 3])&quot;, :offset 54, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(only-pair-dups [[1 2 2 3] [1 2 2 2 3]])&quot;, :offset 40, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(only-pair-dups [[1 2 2 3] [1 2 2 2 3] [1 2 3]])&quot;, :offset 48, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(only-pair-dups [1 2 3 4])&quot;, :offset 26, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(only-pair-dups [1 2 3 4 5 5])&quot;, :offset 30, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(only-pair-dups [1 2 3 4 5 5 5 5 5 ])&quot;, :offset 37, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(if false\n  (println \&quot;hi\&quot;))&quot;, :offset 27, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(if false\n  (println \&quot;hi\&quot;)\n  true)&quot;, :offset 34, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(only-pair-dups [1 2 2 2 2 2])&quot;, :offset 30, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(only-pair-dups [1 2 2])&quot;, :offset 24, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(only-pair-dups [1 2 2 3 3])&quot;, :offset 28, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(only-pair-dups [1 2 2 3 3 3])&quot;, :offset 30, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(only-pair-dups [1 1 2 2 3 3])&quot;, :offset 30, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(if true\n  (only-pair-dups [1 2 2 2])\n  true)&quot;, :offset 45, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(if true\n  (only-pair-dups [1 2 2])\n  true)&quot;, :offset 43, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(in-ns 'advent-of-code.day4)&quot;, :offset 28, :ns &quot;advent-of-code.core&quot;} {:command &quot;(has-dup-pair [1 2 3 4 5 5 5 5 5 ])&quot;, :offset 35, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(some?)&quot;, :offset 7} {:command &quot;(has-dup-pair [1 2 3 3 4 5 5 5 5 5 ])&quot;, :offset 37, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(count (get-possible-passwords true))&quot;, :offset 37, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(in-ns 'advent-of-code.core)&quot;, :offset 28, :ns &quot;advent-of-code.day4&quot;} {:command &quot;(day4-solutions)&quot;, :offset 16, :ns &quot;advent-of-code.core&quot;} {:command &quot;(calc-amount-to-adv '(1 2))&quot;, :offset 27, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(calc-amount-to-adv '(1 ))&quot;, :offset 26, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-instructions-vec)&quot;, :offset 22, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-as-seq 1002)&quot;, :offset 24, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-in [(3) ()] [0 0])&quot;, :offset 23, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(first (first [(3) ()]))&quot;, :offset 24, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(first (first ['(3) '()]))&quot;, :offset 26, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-in ['(3) '()] [0 0])&quot;, :offset 25, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-in ['(3) '()] [0])&quot;, :offset 23, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-in [[0] [8]] [0 0])&quot;, :offset 24, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-as-seq 1234)&quot;, :offset 24, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get (get-instructions-vec) 225)&quot;, :offset 32, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(empty? [1 2 3])&quot;, :offset 16, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(empty? [])&quot;, :offset 11, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(drop 3 [1 2 3])  &quot;, :offset 18, :ns &quot;advent-of-code.core&quot;} {:command &quot;(drop 3 [1])&quot;, :offset 12, :ns &quot;advent-of-code.core&quot;} {:command &quot;*ns*&quot;, :offset 4, :ns &quot;advent-of-code.core&quot;} {:command &quot;(in-ns 'advent-of-code.day5)&quot;, :offset 28, :ns &quot;advent-of-code.core&quot;} {:command &quot;(eval-opcode-fn 1 [5 5 2])&quot;, :offset 26, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(eval-opcode-fn 2 [5 5 2])&quot;, :offset 26, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(eval-opcode-fn 3 [5 2 2])&quot;, :offset 26, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(eval-opcode-fn 2 [2 5 2])&quot;, :offset 26, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(eval-opcode-fn 3 [2 5 2])&quot;, :offset 26, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(eval-opcode-fn 4 [2 5 2])&quot;, :offset 26, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(process-instructions)&quot;, :offset 22, :ns &quot;advent-of-code.day5&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -118,6 +183,7 @@
       <workItem from="1576955387711" duration="7790000" />
       <workItem from="1577482007899" duration="1141000" />
       <workItem from="1577730576848" duration="5651000" />
+      <workItem from="1578266568585" duration="7893000" />
     </task>
     <task id="LOCAL-00001" summary="Solved Day 2 Part 1">
       <created>1576554693871</created>
@@ -157,6 +223,45 @@
     <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8154000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22455573" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32876712" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Leiningen" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info active="true" anchor="right" id="REPL" order="10" side_tool="true" visible="true" weight="0.37560582" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -166,8 +271,28 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -180,6 +305,21 @@
     <MESSAGE value="Solved Day 4 Part 1" />
     <MESSAGE value="Solved Day 4 Part 2" />
     <option name="LAST_COMMIT_MESSAGE" value="Solved Day 4 Part 2" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/advent_of_code/day2.clj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/day5-input.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/advent_of_code/day5.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

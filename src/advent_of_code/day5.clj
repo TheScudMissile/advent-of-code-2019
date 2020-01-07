@@ -9,45 +9,34 @@
 ;; Part 1
 (defn get-instructions-vec
   "Convert raw text input into a list of integer
-   values and partition by instruction chunks (5 elems)"
+   values"
   []
   (vec (map edn/read-string (-> instructions-file
                                 (slurp)
                                 (str/split #",")))))
 
-(defn get-opcode-as-seq
-  "Convert opcode into into a list of values and
-   partition so we have the opcode fn value and
-   the modes separate"
+(defn format-opcode-seq
+  "Remove unneeded leading 0 for function val
+   and add any missing 0s"
+  [opcode-seq]
+  (let [op (first opcode-seq)
+        params (drop 2 opcode-seq)
+        num-zeros-needed (if (or (= 3 op) (= 4 op))
+                           0
+                           (min 3 (- 5 (count opcode-seq))))]
+    (cons op (concat params (repeat num-zeros-needed 0)))))
+
+;; (split-at 2)
+
+(defn get-opcode-seq
+  "Convert opcode into a list of values.
+   The first indicates the fn and the rest
+   indicate the params"
   [opcode]
   (->> opcode
-       (str)
-       (map #(Character/digit % 10))
-       (reverse)
-       (split-at 2)))
+        (str)
+        (map #(Character/digit % 10))
+        (reverse)
+        (format-opcode-seq)))
 
-(defn calc-amount-to-adv
-  "Determine how much to increment instr pointer"
-  [opcode-seq]
-  (let [seq-len (count opcode-seq)]
-    (if (< seq-len 2)
-      2
-      seq-len)))
-
-(defn get-opcode-fn
-  "Determine the appropriate function based on the
-   provided integer.  If not 1 or 2, 3, or 4, return nil"
-  [opcode]
-  (cond
-    (= opcode 1) #(+ % %2)
-    (= opcode 2) #(* %1 %2)
-    (= opcode 3) (fn [coll idx input] (assoc coll idx input))
-    (= opcode 4) #(identity %)))
-
-(defn process-instructions
-  [state instrs-left]
-  (let [opcode-seq (get-opcode-as-seq (first instrs-left))
-        amount-to-adv (calc-amount-to-adv opcode-seq)]
-    opcode-seq))
-
-(println (process-instructions (get-instructions-vec) (get-instructions-vec)))
+(println (get-opcode-seq 1002))
