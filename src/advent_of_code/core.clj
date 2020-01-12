@@ -3,6 +3,7 @@
             [advent-of-code.day2 :as day2]
             [advent-of-code.day3 :as day3]
             [advent-of-code.day4 :as day4]
+            [advent-of-code.day5 :as day5]
             [advent-of-code.day12 :as day12]))
 
 (defn day1-solutions
@@ -28,6 +29,11 @@
   (do
     (println (count (day4/get-possible-passwords false)))
     (println (count (day4/get-possible-passwords true)))))
+
+(defn day5-solutions
+  []
+  (do
+    (println (day5/get-day5-solution))))
 
 (defn day12-solutions
   []
