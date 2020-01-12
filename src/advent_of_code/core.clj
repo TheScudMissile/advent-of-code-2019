@@ -33,7 +33,8 @@
 (defn day5-solutions
   []
   (do
-    (println (day5/get-day5-solution))))
+    (println (day5/get-day5-solution 1))
+    (println (day5/get-day5-solution 5))))
 
 (defn day12-solutions
   []
