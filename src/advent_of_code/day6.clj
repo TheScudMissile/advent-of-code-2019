@@ -1,7 +1,7 @@
 (ns advent-of-code.day6
   (:require [clojure.java.io :as io]
             [clojure.string :as str]
-            [clojure.edn :as edn]))
+            [clojure.set :as set]))
 
 ;; Part 1
 (def orbits (->> (io/resource "day6-input.txt")
@@ -38,6 +38,19 @@
          (map #(count-orbits planet-map % 0))
          (apply +))))
 
-(println (get-orbit-sum))
+;; Part 2
+(defn get-full-path
+  [planet-map curr-planet planet-acc]
+  (let [parent (get planet-map curr-planet)]
+    (if (= nil parent)
+      planet-acc
+      (recur planet-map parent (conj planet-acc parent)))))
 
-
+(defn count-num-transfers
+  []
+  (let [planet-map (create-planet-map)
+        you-path (get-full-path planet-map "YOU" #{})
+        san-path (get-full-path planet-map "SAN" #{})]
+    (count (set/difference
+             (set/union you-path san-path)
+             (set/intersection you-path san-path)))))

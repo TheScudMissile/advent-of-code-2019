@@ -40,7 +40,8 @@
 (defn day6-solutions
   []
   (do
-    (println (day6/get-orbit-sum))))
+    (println (day6/get-orbit-sum))
+    (println (day6/count-num-transfers))))
 
 (defn day12-solutions
   []
