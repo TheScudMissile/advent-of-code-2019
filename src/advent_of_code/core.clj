@@ -4,6 +4,7 @@
             [advent-of-code.day3 :as day3]
             [advent-of-code.day4 :as day4]
             [advent-of-code.day5 :as day5]
+            [advent-of-code.day6 :as day6]
             [advent-of-code.day12 :as day12]))
 
 (defn day1-solutions
@@ -35,6 +36,11 @@
   (do
     (println (day5/get-day5-solution 1))
     (println (day5/get-day5-solution 5))))
+
+(defn day6-solutions
+  []
+  (do
+    (println (day6/get-orbit-sum))))
 
 (defn day12-solutions
   []
