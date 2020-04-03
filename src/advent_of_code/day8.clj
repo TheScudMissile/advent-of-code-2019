@@ -1,5 +1,6 @@
 (ns advent-of-code.day8
-  (:require [clojure.java.io :as io]))
+  (:require [clojure.java.io :as io]
+            [clojure.string :as str]))
 
 ;; Part 1
 
@@ -28,4 +29,13 @@
   [n]
   (let [column (map #(nth % n) image-representation)
         colored-first-value (drop-while #(= % \2) column)]
-    (first colored-first-value)))
+    (if (= \0 (first colored-first-value))
+      "   "
+      " % ")))
+
+(defn part2-solution
+  []
+  (let [image-area-size (range 150)
+        pixel-colors (map get-image-column-color image-area-size)
+        two-d-img (partition 25 pixel-colors)]
+    (map #(println (str/join %)) two-d-img)))
