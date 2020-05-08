@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29fa18b0-03e7-4bcf-975a-6f22899c2a82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/day10-input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/advent_of_code/day10.clj" afterDir="false" />
+    <list default="true" id="29fa18b0-03e7-4bcf-975a-6f22899c2a82" name="Default Changelist" comment="Solved Day 10 Part 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/advent_of_code/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/advent_of_code/core.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/advent_of_code/day10.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/advent_of_code/day10.clj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="Console" />
   </component>
-  <component name="ReplState" timestamp="1588196911443">{:repl-history {:ide [], :local [{:command &quot;(eval-opcode-fn 4 [2 5 2])&quot;, :offset 26, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(process-instructions)&quot;, :offset 22, :ns &quot;advent-of-code.day5&quot;} {:command &quot;advent-of-code.core&quot;, :offset 19, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(calc-amount-to-adv [[0 3] []])&quot;, :offset 31, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(assoc [1 2 3] 0 10)&quot;, :offset 20, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-as-seq 231)&quot;, :offset 23, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(println (get-instructions-vec))&quot;, :offset 32, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-as-seq)&quot;, :offset 19, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-as-seq 123)&quot;, :offset 23, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-as-seq 123494994)&quot;, :offset 29, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(repeat 2 0)&quot;, :offset 12, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(conj [1 2] (repeat 2 0))&quot;, :offset 25, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(concat [1 2] (repeat 2 0))&quot;, :offset 27, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-partitioned-instr 1234)&quot;, :offset 28, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-partitioned-instr 03)&quot;, :offset 26, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-partitioned-instr 003)&quot;, :offset 27, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(add-missing-zeros [0 1 0 0 2])&quot;, :offset 31, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(repeat 0 0)&quot;, :offset 12, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-partitioned-instr 01002)&quot;, :offset 29, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-partitioned-instr 002)&quot;, :offset 27, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-partitioned-instr 012)&quot;, :offset 27, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(-&gt;&gt; 001\n     (str)\n     (map #(Character/digit % 10))\n     (reverse))&quot;, :offset 70, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(-&gt;&gt; 01002\n     (str)\n     (map #(Character/digit % 10))\n     (reverse))&quot;, :offset 72, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(-&gt;&gt; 01002\n     (str)\n     (map #(Character/digit % 10)))&quot;, :offset 57, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(-&gt;&gt; 01002\n     (str))&quot;, :offset 22, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-partitioned-instr 1)&quot;, :offset 25, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-partitioned-instr 2)&quot;, :offset 25, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-partitioned-instr 3)&quot;, :offset 25, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-partitioned-instr 4)&quot;, :offset 25, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-partitioned-instr 3301)&quot;, :offset 28, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-partitioned-instr 33301)&quot;, :offset 29, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-partitioned-instr 301)&quot;, :offset 27, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-partitioned-instr 333301)&quot;, :offset 30, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-partitioned-instr 101)&quot;, :offset 27, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-partitioned-instr 1101)&quot;, :offset 28, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-partitioned-instr 1002)&quot;, :offset 28, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(cons 3 [1 2 3])&quot;, :offset 16, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(concat 1 2 [1 2 3])&quot;, :offset 20, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(first [1 2 3])&quot;, :offset 15, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(cons 1 2 [1 2 3])&quot;, :offset 18, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(drop 2 [1 2 3 4])&quot;, :offset 18, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-seq 303)&quot;, :offset 20, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-seq 1002)&quot;, :offset 21, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-seq 2)&quot;, :offset 18, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-seq 101)&quot;, :offset 20, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-seq 10102)&quot;, :offset 22, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-seq 10103)&quot;, :offset 22, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-seq 3)&quot;, :offset 18, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-seq 102)&quot;, :offset 20, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-seq 11102)&quot;, :offset 22, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(process-instr-chun k [1001 3 5 30] [1001 3 5 30])&quot;, :offset 50, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-seq 1001)&quot;, :offset 21, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(rest [1 0 1 0])&quot;, :offset 16, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(process-instr-chunk [1001 3 5 30] [1001 3 5 30])&quot;, :offset 49, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(apply + [1 2 3])&quot;, :offset 17, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(process-instr-chunk [1001 3 5 0] [1001 3 5 0])&quot;, :offset 47, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(process-instr-chunk [1001 3 5 2] [1001 3 5 0])&quot;, :offset 47, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(first (get-opcode-seq (first [1 2 3 4])))&quot;, :offset 42, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-fn (first (get-opcode-seq (first [1 2 3 4]))))&quot;, :offset 58, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(map #(get-value-based-on-mode [1001 3 5 2] %1 %2) [0 1 0] [3 5 2])&quot;, :offset 67, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(process-instr-chunk [1001 3 5 2] [1001 3 5 2])&quot;, :offset 47, :ns &quot;advent-of-code.day5&quot;} {:command &quot;[1001 3 5 2]&quot;, :offset 12} {:command &quot;(process-instr-chunk [1001 3 5 1] [1001 3 5 1])&quot;, :offset 47, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-instructions-vec)&quot;, :offset 22, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(&gt; 3 2)&quot;, :offset 7, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(format-opcode-seq 3)&quot;, :offset 21, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(format-opcode-seq [3])&quot;, :offset 23, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(seq 1 2 3)&quot;, :offset 11, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(list 1 2 3)&quot;, :offset 12, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-params [1 2 3 4 5] 1 0)&quot;, :offset 28, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-params [1 2 3 4 5] 3 0)&quot;, :offset 28, :ns &quot;advent-of-code.day5&quot;} {:command &quot;*ns*&quot;, :offset 4, :ns &quot;advent-of-code.core&quot;} {:command &quot;(in-ns 'advent-of-code.day5)&quot;, :offset 28, :ns &quot;advent-of-code.core&quot;} {:command &quot;(first [0])&quot;, :offset 11, :ns &quot;advent-of-code.core&quot;} {:command &quot;(last [2])&quot;, :offset 10, :ns &quot;advent-of-code.core&quot;} {:command &quot;([] 1 2 3)&quot;, :offset 10, :ns &quot;advent-of-code.core&quot;} {:command &quot;([] 1)&quot;, :offset 6, :ns &quot;advent-of-code.core&quot;} {:command &quot;([])&quot;, :offset 4, :ns &quot;advent-of-code.core&quot;} {:command &quot;([] \&quot;asdf\&quot;)&quot;, :offset 11, :ns &quot;advent-of-code.core&quot;} {:command &quot;([1 2 3 4] 0)&quot;, :offset 13, :ns &quot;advent-of-code.core&quot;} {:command &quot;(in-ns 'advent-of-code.day8)&quot;, :offset 28, :ns &quot;advent-of-code.core&quot;} {:command &quot;(get-image-column-color 0)&quot;, :offset 26, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(image-representation)&quot;, :offset 22, :ns &quot;advent-of-code.day8&quot;} {:command &quot;image-representation&quot;, :offset 20, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(count image-representation)&quot;, :offset 28, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(rang 100)&quot;, :offset 10, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(range 100)&quot;, :offset 11, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(concat [\&quot;1\&quot; \&quot;2\&quot;])&quot;, :offset 18, :ns &quot;advent-of-code.day8&quot;} {:command &quot;()&quot;, :offset 1} {:command &quot;(do (build-colored-image))&quot;, :offset 26, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(doall (build-colored-image))&quot;, :offset 29, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(str \&quot;1\&quot;\n     \&quot;2\&quot;)&quot;, :offset 18, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(count (build-colored-image))&quot;, :offset 29, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(count (first image-representation))&quot;, :offset 36, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(build-colored-image)&quot;, :offset 21, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(in-ns 'clojure.core$_)&quot;, :offset 23, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(in-ns 'clojure.core)&quot;, :offset 21, :ns &quot;clojure.core$_&quot;} {:command &quot;(day8-sol)&quot;, :offset 9} {:command &quot;(in-ns 'advent-of-code.core)&quot;, :offset 28, :ns &quot;clojure.core&quot;} {:command &quot;(day8-solutions)&quot;, :offset 16, :ns &quot;advent-of-code.core&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1588896249931">{:repl-history {:ide [], :local [{:command &quot;(get-partitioned-instr 33301)&quot;, :offset 29, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-partitioned-instr 301)&quot;, :offset 27, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-partitioned-instr 333301)&quot;, :offset 30, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-partitioned-instr 101)&quot;, :offset 27, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-partitioned-instr 1101)&quot;, :offset 28, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-partitioned-instr 1002)&quot;, :offset 28, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(cons 3 [1 2 3])&quot;, :offset 16, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(concat 1 2 [1 2 3])&quot;, :offset 20, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(first [1 2 3])&quot;, :offset 15, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(cons 1 2 [1 2 3])&quot;, :offset 18, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(drop 2 [1 2 3 4])&quot;, :offset 18, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-seq 303)&quot;, :offset 20, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-seq 1002)&quot;, :offset 21, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-seq 2)&quot;, :offset 18, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-seq 101)&quot;, :offset 20, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-seq 10102)&quot;, :offset 22, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-seq 10103)&quot;, :offset 22, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-seq 3)&quot;, :offset 18, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-seq 102)&quot;, :offset 20, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-seq 11102)&quot;, :offset 22, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(process-instr-chun k [1001 3 5 30] [1001 3 5 30])&quot;, :offset 50, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-seq 1001)&quot;, :offset 21, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(rest [1 0 1 0])&quot;, :offset 16, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(process-instr-chunk [1001 3 5 30] [1001 3 5 30])&quot;, :offset 49, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(apply + [1 2 3])&quot;, :offset 17, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(process-instr-chunk [1001 3 5 0] [1001 3 5 0])&quot;, :offset 47, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(process-instr-chunk [1001 3 5 2] [1001 3 5 0])&quot;, :offset 47, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(first (get-opcode-seq (first [1 2 3 4])))&quot;, :offset 42, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-opcode-fn (first (get-opcode-seq (first [1 2 3 4]))))&quot;, :offset 58, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(map #(get-value-based-on-mode [1001 3 5 2] %1 %2) [0 1 0] [3 5 2])&quot;, :offset 67, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(process-instr-chunk [1001 3 5 2] [1001 3 5 2])&quot;, :offset 47, :ns &quot;advent-of-code.day5&quot;} {:command &quot;[1001 3 5 2]&quot;, :offset 12} {:command &quot;(process-instr-chunk [1001 3 5 1] [1001 3 5 1])&quot;, :offset 47, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-instructions-vec)&quot;, :offset 22, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(&gt; 3 2)&quot;, :offset 7, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(format-opcode-seq 3)&quot;, :offset 21, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(format-opcode-seq [3])&quot;, :offset 23, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(seq 1 2 3)&quot;, :offset 11, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(list 1 2 3)&quot;, :offset 12, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-params [1 2 3 4 5] 1 0)&quot;, :offset 28, :ns &quot;advent-of-code.day5&quot;} {:command &quot;(get-params [1 2 3 4 5] 3 0)&quot;, :offset 28, :ns &quot;advent-of-code.day5&quot;} {:command &quot;*ns*&quot;, :offset 4, :ns &quot;advent-of-code.core&quot;} {:command &quot;(in-ns 'advent-of-code.day5)&quot;, :offset 28, :ns &quot;advent-of-code.core&quot;} {:command &quot;(first [0])&quot;, :offset 11, :ns &quot;advent-of-code.core&quot;} {:command &quot;(last [2])&quot;, :offset 10, :ns &quot;advent-of-code.core&quot;} {:command &quot;([] 1 2 3)&quot;, :offset 10, :ns &quot;advent-of-code.core&quot;} {:command &quot;([] 1)&quot;, :offset 6, :ns &quot;advent-of-code.core&quot;} {:command &quot;([])&quot;, :offset 4, :ns &quot;advent-of-code.core&quot;} {:command &quot;([] \&quot;asdf\&quot;)&quot;, :offset 11, :ns &quot;advent-of-code.core&quot;} {:command &quot;([1 2 3 4] 0)&quot;, :offset 13, :ns &quot;advent-of-code.core&quot;} {:command &quot;(in-ns 'advent-of-code.day8)&quot;, :offset 28, :ns &quot;advent-of-code.core&quot;} {:command &quot;(get-image-column-color 0)&quot;, :offset 26, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(image-representation)&quot;, :offset 22, :ns &quot;advent-of-code.day8&quot;} {:command &quot;image-representation&quot;, :offset 20, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(count image-representation)&quot;, :offset 28, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(rang 100)&quot;, :offset 10, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(range 100)&quot;, :offset 11, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(concat [\&quot;1\&quot; \&quot;2\&quot;])&quot;, :offset 18, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(do (build-colored-image))&quot;, :offset 26, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(doall (build-colored-image))&quot;, :offset 29, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(str \&quot;1\&quot;\n     \&quot;2\&quot;)&quot;, :offset 18, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(count (build-colored-image))&quot;, :offset 29, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(count (first image-representation))&quot;, :offset 36, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(build-colored-image)&quot;, :offset 21, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(in-ns 'clojure.core$_)&quot;, :offset 23, :ns &quot;advent-of-code.day8&quot;} {:command &quot;(in-ns 'clojure.core)&quot;, :offset 21, :ns &quot;clojure.core$_&quot;} {:command &quot;(day8-sol)&quot;, :offset 9} {:command &quot;(in-ns 'advent-of-code.core)&quot;, :offset 28, :ns &quot;clojure.core&quot;} {:command &quot;(day8-solutions)&quot;, :offset 16, :ns &quot;advent-of-code.core&quot;} {:command &quot;(get-num-and-pos-for-point)&quot;, :offset 27, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(max [1] [1 1] [1 1 1])&quot;, :offset 23, :ns &quot;advent-of-code.day10&quot;} {:command &quot;()&quot;, :offset 2} {:command &quot;(1 [0 1 2])&quot;, :offset 11, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(get [0 1 2] 0)&quot;, :offset 15, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(get '(1 2 3) 0)&quot;, :offset 16, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(get '(1 2 3) 1)&quot;, :offset 16, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(part2-solution)&quot;, :offset 16, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(-&gt;&gt; coords\n     (map #(-&gt; %\n               get-slopes-for-point\n               set\n               count))\n     (apply max))&quot;, :offset 124, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(-&gt;&gt; coords\n     (map #(-&gt; %\n               get-slopes-for-point\n               set\n               count)))&quot;, :offset 107, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(-&gt;&gt; coords\n     (map #(-&gt; %\n               get-slopes-for-point\n               frequencies)))&quot;, :offset 94, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(-&gt;&gt; coords\n     (map #(-&gt; %\n               get-slopes-for-point\n               frequencies\n               set)))&quot;, :offset 113, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(-&gt;&gt; coords\n     (map #(-&gt; %\n               get-slopes-for-point\n               frequencies\n               set\n               count)))&quot;, :offset 134, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(-&gt;&gt; coords\n     (map #(-&gt; %\n               get-slopes-for-point\n               frequencies\n               set\n               count))\n     (apply max))&quot;, :offset 151, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(merge {:a 3} {:a 10})&quot;, :offset 22, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(merge-with concat {:a 3} {:a 10})&quot;, :offset 34, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(mer)&quot;, :offset 5} {:command &quot;(merge-with into {:a 3} {:a 10})&quot;, :offset 32, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(partition-by identity [1 1 1 2 2 1 2 2 2])&quot;, :offset 43, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(conj {:a 4 :b 4} [:c 4])&quot;, :offset 25, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(conj {:a 4 :b 4} [:b 4])&quot;, :offset 25, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(merge-with conj {:a 3} {:a 10})&quot;, :offset 32, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(merge-with vector {:a 3} {:a 10})&quot;, :offset 34, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(get-slope-with-positions-map)&quot;, :offset 30, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(part1-solution)&quot;, :offset 16, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(merge-with conj [:a 8] [:a 10])&quot;, :offset 32, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(merge-with conj {:a 8} {:a 10})&quot;, :offset 32, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(merge-with vector {:a 4} {:a 4})&quot;, :offset 33, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(get-slope-map)&quot;, :offset 15, :ns &quot;advent-of-code.day10&quot;} {:command &quot;(in-ns 'advent-of-code.day10)&quot;, :offset 29, :ns &quot;advent-of-code.core&quot;} {:command &quot;(sort-by ffirst slope-comparator [{\&quot;3/2R\&quot; 10} {\&quot;-3/2R\&quot; 11}])&quot;, :offset 60, :ns &quot;advent-of-code.day10&quot;}], :remote []}}</component>
   <component name="RunManager">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
@@ -118,7 +116,9 @@
       <workItem from="1578266568585" duration="24343000" />
       <workItem from="1585756989808" duration="12480000" />
       <workItem from="1585927174027" duration="2341000" />
-      <workItem from="1588099901637" duration="11883000" />
+      <workItem from="1588099901637" duration="11992000" />
+      <workItem from="1588350928083" duration="13584000" />
+      <workItem from="1588881109699" duration="7726000" />
     </task>
     <task id="LOCAL-00001" summary="Solved Day 2 Part 1">
       <created>1576554693871</created>
@@ -204,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585930213809</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Solved Day 10 Part 1">
+      <created>1588196966041</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1588196966041</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,29 +257,69 @@
     <MESSAGE value="Solved Day 8 Part 1" />
     <MESSAGE value="Started Day 8 Part 2" />
     <MESSAGE value="Solved Day 8 Part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved Day 8 Part 2" />
+    <MESSAGE value="Solved Day 10 Part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved Day 10 Part 1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="263" y="-1077" key="CommitChangelistDialog2" timestamp="1585930213512">
-      <screen x="-133" y="-1080" width="1920" height="1080" />
+    <state x="347" y="3" key="CommitChangelistDialog2" timestamp="1588364803255">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="263" y="-1054" key="CommitChangelistDialog2/-133.-1057.1920.1057/0.23.1680.947@-133.-1057.1920.1057" timestamp="1585771681211" />
     <state x="263" y="-1077" key="CommitChangelistDialog2/-133.-1080.1920.1080/0.0.1680.1050@-133.-1080.1920.1080" timestamp="1585930213512" />
+    <state x="347" y="3" key="CommitChangelistDialog2/-133.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1588364803255" />
+    <state width="1638" height="363" key="GridCell.Tab.0.bottom" timestamp="1588885858359">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.0.bottom/-133.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1588885858359" />
+    <state width="1638" height="363" key="GridCell.Tab.0.center" timestamp="1588885858357">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.0.center/-133.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1588885858357" />
+    <state width="1638" height="363" key="GridCell.Tab.0.left" timestamp="1588885858355">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.0.left/-133.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1588885858355" />
+    <state width="1638" height="363" key="GridCell.Tab.0.right" timestamp="1588885858358">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.0.right/-133.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1588885858358" />
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom" timestamp="1588885858361">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom/-133.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1588885858361" />
+    <state width="1638" height="363" key="GridCell.Tab.1.center" timestamp="1588885858360">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.center/-133.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1588885858360" />
+    <state width="1638" height="363" key="GridCell.Tab.1.left" timestamp="1588885858359">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.left/-133.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1588885858359" />
+    <state width="1638" height="363" key="GridCell.Tab.1.right" timestamp="1588885858361">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.right/-133.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1588885858361" />
     <state x="621" y="243" key="RollbackChangesDialog" timestamp="1588112615052">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="621" y="243" key="RollbackChangesDialog/-133.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1588112615052" />
-    <state x="79" y="-1027" key="SettingsEditor" timestamp="1585929800252">
-      <screen x="-133" y="-1080" width="1920" height="1080" />
+    <state x="186" y="52" key="SettingsEditor" timestamp="1588883692789">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="79" y="-1005" key="SettingsEditor/-133.-1057.1920.1057/0.23.1680.947@-133.-1057.1920.1057" timestamp="1585762183680" />
     <state x="79" y="-1005" key="SettingsEditor/-133.-1057.1920.1057/0.23.1680.949@-133.-1057.1920.1057" timestamp="1585757729931" />
     <state x="79" y="-1027" key="SettingsEditor/-133.-1080.1920.1080/0.0.1680.1050@-133.-1080.1920.1080" timestamp="1585929800252" />
-    <state x="227" y="-891" key="Vcs.Push.Dialog.v2" timestamp="1585930215503">
-      <screen x="-133" y="-1080" width="1920" height="1080" />
+    <state x="186" y="52" key="SettingsEditor/-133.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1588883692789" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1588365068325">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/-133.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1588365068325" />
+    <state x="315" y="184" key="Vcs.Push.Dialog.v2" timestamp="1588196969170">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="227" y="-872" key="Vcs.Push.Dialog.v2/-133.-1057.1920.1057/0.23.1680.947@-133.-1057.1920.1057" timestamp="1585771685446" />
     <state x="227" y="-891" key="Vcs.Push.Dialog.v2/-133.-1080.1920.1080/0.0.1680.1050@-133.-1080.1920.1080" timestamp="1585930215503" />
+    <state x="315" y="184" key="Vcs.Push.Dialog.v2/-133.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1588196969170" />
     <state x="507" y="-772" width="639" height="486" key="find.popup" timestamp="1585758594056">
       <screen x="-133" y="-1057" width="1920" height="1057" />
     </state>
@@ -281,76 +328,5 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="445" y="233" width="789" height="676" key="search.everywhere.popup/-133.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1588195538906" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

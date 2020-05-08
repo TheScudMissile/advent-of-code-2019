@@ -46,7 +46,8 @@
 
 (defn day10-solutions
   []
-  (println (day10/part1-solution)))
+  (println (day10/part1-solution))
+  (println (day10/part2-solution)))
 
 (defn day12-solutions
   []
